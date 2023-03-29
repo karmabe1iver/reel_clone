@@ -1,0 +1,33 @@
+name: reel_clone
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment:
+  sdk: '>=2.17.0 <3.0.0'
+
+dependencies: 
+  cupertino_icons: ^1.0.2
+  get: 4.6.5
+  flutter: 
+    sdk: flutter
+  video_player: ^2.6.0
+  firebase_core: ^2.8.0
+  firebase_auth: ^4.3.0
+  google_sign_in: ^6.0.2
+  get_storage: ^2.0.3
+  firebase_database: ^10.0.16
+  firebase_storage: ^11.0.16
+
+
+dev_dependencies: 
+  flutter_lints: ^2.0.0
+  flutter_test: 
+    sdk: flutter
+
+flutter: 
+  uses-material-design: true
+  assets:
+    - asset/reel.mp4
+    - asset/reel1.mp4
+    - asset/image/
+

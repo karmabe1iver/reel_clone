@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "873511969424",
+    "project_id": "reelclone-28177",
+    "storage_bucket": "reelclone-28177.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:873511969424:android:be21888ec1629acc312e15",
+        "android_client_info": {
+          "package_name": "com.example.reel_clone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "873511969424-skd9lmi18vu9n4pj9o1v4flqd62phb6q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.reel_clone",
+            "certificate_hash": "e9889a0e8f0e0feb945d77246846b079ad0154ae"
+          }
+        },
+        {
+          "client_id": "873511969424-6igc50lsjt2o4bgcd2s3t0npv520sqqf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGh3_bwSCDJKXyKOBulNG3H81hXfN_Dqo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "873511969424-6igc50lsjt2o4bgcd2s3t0npv520sqqf.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "873511969424-ei99j5ctdnk7augacf3c1av6d3k3fktc.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.reelClone"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
