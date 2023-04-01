@@ -1,8 +1,8 @@
-# Learn
+# ReelApp
 
 
 
-## ReelApp
+## Screens
 
 This project is a  simple short video streaming Apllication.
 
