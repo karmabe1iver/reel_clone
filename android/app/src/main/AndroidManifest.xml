@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.reel_clone">
    <application
-        android:label="reel_clone"
+        android:label="ReelApp"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity

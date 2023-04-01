@@ -17,17 +17,22 @@ dependencies:
   get_storage: ^2.0.3
   firebase_database: ^10.0.16
   firebase_storage: ^11.0.16
+  image_picker: ^0.8.7+1
+  video_compress: ^3.1.2
 
 
 dev_dependencies: 
   flutter_lints: ^2.0.0
   flutter_test: 
     sdk: flutter
+  flutter_launcher_icons: ^0.11.0
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "asset/image/logo.png"
 
 flutter: 
   uses-material-design: true
   assets:
-    - asset/reel.mp4
-    - asset/reel1.mp4
     - asset/image/
 

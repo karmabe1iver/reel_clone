@@ -7,6 +7,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:get/get_core/src/get_main.dart';
 import 'package:google_sign_in/google_sign_in.dart';
+import 'package:reel_clone/app/data/firbase_database.dart';
 import 'package:reel_clone/app/routes/app_pages.dart';
 
 import '../../firebase_options.dart';
@@ -29,10 +30,12 @@ class GoogleAuth{
       options: DefaultFirebaseOptions.currentPlatform,
     );
     User? user = FirebaseAuth.instance.currentUser;
-    if (user != null) {
+    if (user != null&& videoData.length!=0) {
       LocalStore.setData('Photo',user.photoURL);
       LocalStore.setData('Name',user.displayName);
-     Get.toNamed(Routes.HOME);
+
+      Get.toNamed(Routes.HOME);
+
     }
 
 
