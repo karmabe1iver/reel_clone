@@ -1,8 +1,8 @@
-# reel_clone
+# Learn
 
-ReelApp
 
-## Getting Started
+
+## ReelApp
 
 This project is a  simple short video streaming Apllication.
 
